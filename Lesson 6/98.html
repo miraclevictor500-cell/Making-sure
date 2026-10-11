@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My animal Safari</title>
+   <style>
+    body { position: relative; }
+    
+    .safari-slide { height: 200px; text-align: center; padding-top: 75px; font-size: 1.8rem; color: white; }
+    
+    .slide-forest { background: darkgreen; }
+    
+    .slide-jungle { background: rgb(173, 180, 70); }
+    
+    .slide-desert { background: orange; }
+   
+    .slide-ocean { background: rgb(0, 157, 255); }
+
+     .slide-mountain { background: rgb(139, 69, 19); }
+      
+     .slide-savannah { background: rgb(255, 215, 0); }
+    
+    .section { padding: 70px 20px; min-height: 300px; }
+
+    
+    
+    #forest { background: honeydew; }
+    
+    #ocean { background: aliceblue; }
+    
+    #desert { background: lightyellow; }
+</style>
+</head>
+<body data-spy="scroll" data-target="#SafariNav">
+    
+    
+
+<div id="safaricarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#SafariCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#SafariCarousel" data-slide-to="1"></li>
+        <li data-target="#SafariCarousel" data-slide-to="2"></li>
+        <li data-target="#SafariCarousel" data-slide-to="3"></li>
+        <li data-target="#SafariCarousel" data-slide-to="4"></li>
+        <li data-target="#SafariCarousel" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active safari-slide slide-forest">🙉Forest Safari</div>
+        <div class="carousel-item safari-slide slide-jungle">🙈Jungle Safari</div>
+        <div class="carousel-item safari-slide slide-desert">🦁Desert Safari</div>
+        <div class="carousel-item safari-slide slide-ocean">🐬Ocean Safari</div>
+        <div class="carousel-item safari-slide slide-mountain">🐐Mountain Safari</div>
+        <div class="carousel-item safari-slide slide-savannah">🦁Savannah Safari</div>
+    </div>
+
+    <a class="carousel-control-prev" href="#safaricarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#safaricarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+
+
+
+    <!-- Description Sections  -->
+     <div id="forest" class="section">
+        <h2>🙉Forest Safari</h2>
+        <p>Experience the lush greenery and diverse wildlife of the forest. From towering trees to hidden creatures, a forest safari offers a unique adventure.</p>
+        </div>
+
+  
+     <div id="jungle" class="section">
+        <h2>🙈Jungle Safari</h2>
+        <p>Immerse yourself in the dense and mysterious jungle. Encounter exotic animals and explore the rich biodiversity that thrives in this environment.</p>
+        </div>
+
+    <div id="desert" class="section">   
+        <h2>🦁Desert Safari</h2>
+        <p>Discover the vast and arid landscapes of the desert. Experience the thrill of dune bashing, camel rides, and witness stunning sunsets over the sand dunes.</p>
+        </div>
+
+    <div id="ocean" class="section">
+        <h2>🐬Ocean Safari</h2>
+        <p>Dive into the deep blue waters and explore the wonders of the ocean. From colorful coral reefs to majestic marine life, an ocean safari is a breathtaking experience.</p>
+        </div>
+
+    <div id="mountain" class="section">
+        <h2>🐐Mountain Safari</h2> 
+        <p>Embark on a journey through rugged terrains and high altitudes. A mountain safari offers panoramic views, challenging hikes, and encounters with unique wildlife.</p>
+        </div>
+
+
+    <div id="savannah" class="section">
+        <h2>🦁Savannah Safari</h2>    
+    <p>Experience the open grasslands and iconic wildlife of the savannah. Witness the great migrations, spot predators in action, and enjoy the vast landscapes.</p>
+    </div>
+    
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body> 
+</html>

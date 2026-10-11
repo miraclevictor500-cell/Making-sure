@@ -1,0 +1,3 @@
+!-- container-fluid: full-width header -->
+  <div class="container-fluid bg-success text-white p-4">
+    <h1>My Nature Explorer Page</h1>

@@ -1,0 +1,39 @@
+body {
+
+    background-color: #f9f9f9;
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px 15px;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: #FF5A43;
+
+}
+
+.hobby-card {
+
+    text-align: center;
+
+    border: 2px solid #FF5A43;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    background-color: #fff8e1;
+
+}
+
+.hobby-card h3 {
+
+    color: #FF5A43;
+
+}
